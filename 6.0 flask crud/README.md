@@ -301,3 +301,68 @@ Resultado esperado:
     "precio": 1200.50
 }
 ```
+
+# Configuración Inicial de Git
+
+## 1. Verificar que Git esté instalado
+
+Abre **Git Bash** o una terminal y ejecuta:
+
+```bash
+git --version
+```
+
+Salida esperada:
+
+```bash
+git version 2.x.x
+```
+
+---
+
+## 2. Configurar el nombre de usuario
+
+Este nombre aparecerá en los commits realizados.
+
+```bash
+git config --global user.name "Byron Moreno"
+```
+
+Verificar la configuración:
+
+```bash
+git config --global user.name
+```
+
+---
+
+## 3. Configurar el correo electrónico
+
+Utiliza el correo asociado a tu cuenta de GitHub, GitLab o la plataforma que utilices.
+
+```bash
+git config --global user.email "correo@ejemplo.com"
+```
+
+Verificar la configuración:
+
+```bash
+git config --global user.email
+```
+
+---
+
+## 4. Verificar toda la configuración
+
+Mostrar todas las configuraciones globales de Git:
+
+```bash
+git config --list
+```
+
+También puedes consultar configuraciones específicas:
+
+```bash
+git config --global user.name
+git config --global user.email
+```
